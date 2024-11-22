@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Search for Pokémon Name or ID:</h1>
+      <h1>Pokemon Status</h1>
       <div className="search-bar">
         <input type="text" id="search-input" placeholder="Enter Pokémon name or ID" />
         <button onClick={handleSearch}>Search</button>
