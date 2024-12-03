@@ -12,7 +12,7 @@ const App = () => {
     setError(null);
 
     try {
-      const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${inputValue}`);
+      const response = await fetch(`Your api${inputValue}`);
 
       if (!response.ok) {
         setError("Pokémon not found");
